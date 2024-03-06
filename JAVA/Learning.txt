@@ -92,3 +92,16 @@ Interface in Java
 				- It is used to achieve abstraction.
 				- By interface, we can support the functionality of multiple inheritance.
 				- It can be used to achieve loose coupling.
+				
+String class
+		- An array of characters works same as Java string.
+		- The java.lang.String class implements Serializable, Comparable and 
+		  CharSequence interfaces.
+		- Way to create String object
+				- By string literal
+				- By new keyword
+		- Note : Each time you create a string literal, the JVM checks the "string 
+		         constant pool" first. If the string already exists in the pool, a
+				 reference to the pooled instance is returned. If the string doesn't 
+				 exist in the pool, a new string instance is created and placed in the pool. 
+		
