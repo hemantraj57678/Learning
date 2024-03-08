@@ -105,3 +105,19 @@ String class
 				 reference to the pooled instance is returned. If the string doesn't 
 				 exist in the pool, a new string instance is created and placed in the pool. 
 		
+Exception Handling:
+		- To handle run time error
+		- Throwable
+			-Exception
+				-IOExceprtion
+				-SQLException
+				-Classnot found Exception
+				-Runtime Exception
+					-Arthimatic Exception
+					-NullPointerException
+					-NumberFormatException
+					-IndexoutOfBound Exception
+			-Error
+				-Stack overflow error
+				-Virtual Machine error
+				-OutOfMemory error
