@@ -121,3 +121,69 @@ Exception Handling:
 				-Stack overflow error
 				-Virtual Machine error
 				-OutOfMemory error
+				
+Try- Catch
+		- The catch block must be used after the try block only. 
+		  You can use multiple catch block with a single try block.
+		- 
+		
+		
+Wrapper Class 
+		- Wrapper class provides mechanism to convert primitive in to object and
+ 		  object to primitive.
+		- autoboxing and unboxing convert
+		- Java oop language so we need to deal with object like collections, serialization 
+		  and synchronization.
+		- The java.util package provides the utility classes to deal with object.
+		- The automatic conversion of primitive data type into its corresponding wrapper 
+		  class is known as autoboxing,
+		- The automatic conversion of wrapper type into its corresponding primitive type
+  		  is known as unboxing.
+		- eg. int i=a.intValue();
+		
+Collections in Java
+		- The Collection in Java is a framework that provides an architecture to store 
+		  and manipulate the group of objects.
+		- Java Collection means a single unit of objects.
+		
+		Iterable Interface:
+			- The Iterable interface is the root interface for all the collection classes. 
+			- It contains only one abstract method.
+			- eg. Iterator<T> iterator()  
+			
+		Collection Interface:
+			- 
+			
+		List Interface :
+			- List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack.
+			- It can have duplicate values.
+			
+ArrayList:
+		- dynamic array to store the elements.
+		- there is no size limit.
+		- ArrayList in java can duplicate elements.
+		- ArrayList class maintain insertion order.
+		- ArrayList class is nonsynchronized.
+		- Method:
+			-list.add(); -It will add
+			-list.get(i) -data from list
+			-list.set(1,"XYZ"); -it wil replace
+			-Collections.sort(list1);  -for sorting
+			-list.addAll(list1); -add list1  all data to list.
+			-list.remove("XYZ") -remove first XYZ data from list
+			-list.remove(0) -remove index 0 data from list
+			-list.removeAll(list1) -remove all data
+			-list.clear() -clear all list
+			-list.retainAll(list1); -compare with list1 and list , and outwill common data
+			-list.isEmpty() -if empty return True
+			-Size is dependent on how much data
+			-Capacity is dependent on how much define
+			
+LinkedList :
+		- Java LinkedList class uses a doubly linked list to store the elements.
+		- It inherits the AbstractList class and implements List and Deque interfaces.
+		- Java LinkedList class is non synchronized.
+		- Java LinkedList class maintains insertion order.
+		- Java LinkedList class can contain duplicate elements.
+
+
